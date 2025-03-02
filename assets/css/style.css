@@ -1,11 +1,4 @@
 /*
-* ----------------------------------------------------------------------------------------
-Author       : Tanvir Hossain
-Template Name: Nino - Premium Portfolio Template
-Version      : 1.0                                          
-* ----------------------------------------------------------------------------------------
-*/
-
 /*
 * ----------------------------------------------------------------------------------------
 * 01.GLOBAL CSS STYLE
@@ -163,7 +156,6 @@ a:hover {
 }
 
 
-
 ul,
 li {
     list-style: none;
@@ -181,7 +173,6 @@ mark {
     background: transparent;
     text-decoration: underline;
 }
-
 
 
 input,
@@ -365,7 +356,7 @@ html {
     margin-right: 0;
 }
 
-.no-gap>div {
+.no-gap > div {
     padding-left: 0;
     padding-right: 0;
 }
@@ -457,6 +448,7 @@ html {
     transition: .3s;
     background: transparent;
 }
+
 .theme-btn-two:hover {
     border: 1px solid var(--border-color);
     text-decoration: none;
@@ -559,7 +551,6 @@ html {
     -ms-flex-align: center;
     align-items: center;
 }
-
 
 
 .list-style-two li:before {
@@ -700,7 +691,8 @@ html {
     margin-right: 5px;
 }
 
-.slider-arrows button:last-child {}
+.slider-arrows button:last-child {
+}
 
 /*** Slick Dots ***/
 .slick-dots {
@@ -760,8 +752,6 @@ html {
     width: 21px;
     height: 21px;
 }
-
-
 
 
 .single-page-hero-area {
@@ -849,11 +839,11 @@ html {
     margin-right: 0;
 }
 
-.main-menu ul li.has-dropdown>a {
+.main-menu ul li.has-dropdown > a {
     padding-right: 14px;
 }
 
-.main-menu ul li.has-dropdown>a:after {
+.main-menu ul li.has-dropdown > a:after {
     position: absolute;
     content: "\f107";
     right: -4px;
@@ -865,7 +855,7 @@ html {
     transition: 0.3s;
 }
 
-.main-menu ul li .sub-menu li.has-dropdown>a:after {
+.main-menu ul li .sub-menu li.has-dropdown > a:after {
     right: 15px;
     top: 6px;
 }
@@ -886,11 +876,11 @@ html {
     color: var(--primary-color);
 }
 
-.main-menu ul li:hover>a {
+.main-menu ul li:hover > a {
     color: var(--main-color);
 }
 
-.main-menu ul li:hover>a:after {
+.main-menu ul li:hover > a:after {
     color: var(--main-color);
 }
 
@@ -947,11 +937,11 @@ html {
     color: var(--primary-color);
 }
 
-.main-menu ul li .sub-menu li:hover>a {
+.main-menu ul li .sub-menu li:hover > a {
     color: var(--primary-color);
 }
 
-.main-menu ul li .sub-menu li>.sub-menu {
+.main-menu ul li .sub-menu li > .sub-menu {
     right: 120%;
     top: 0;
     visibility: hidden;
@@ -959,7 +949,7 @@ html {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 }
 
-.main-menu ul li .sub-menu li:hover>.sub-menu {
+.main-menu ul li .sub-menu li:hover > .sub-menu {
     right: 100%;
     left: auto;
     visibility: visible;
@@ -1028,7 +1018,7 @@ html {
     background: none;
 }
 
-.mean-container .mean-nav>ul {
+.mean-container .mean-nav > ul {
     padding: 0;
     margin: 0;
     width: 100%;
@@ -1074,15 +1064,15 @@ html {
     border-color: #353535;
 }
 
-.mean-container .mean-nav ul li>a>i {
+.mean-container .mean-nav ul li > a > i {
     display: none;
 }
 
-.mean-container .mean-nav ul li>a.mean-expand i {
+.mean-container .mean-nav ul li > a.mean-expand i {
     display: inline-block;
 }
 
-.mean-container .mean-nav>ul>li:first-child>a {
+.mean-container .mean-nav > ul > li:first-child > a {
     border-top: 0;
 }
 
@@ -1221,10 +1211,9 @@ html {
 }
 
 
-
 .hero-content h2 {
     font-weight: 500;
-    font-size: 230px;
+    font-size: 190px;
     text-transform: uppercase;
     text-align: center;
     color: var(--main-color);
@@ -1460,7 +1449,6 @@ html {
     padding: 0 20px;
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
-
 
 
 .about-social {
@@ -1704,7 +1692,8 @@ h2.about-pre-title {
     background: var(--black-color);
 }
 
-.extra-skills {}
+.extra-skills {
+}
 
 .extra-skills ul {
     margin-top: 30px;
@@ -1822,12 +1811,9 @@ ul.extra-skills li i {
 }
 
 
-
 .resume-box span {
     color: rgb(119, 119, 125);
 }
-
-
 
 
 .skill-area {
@@ -1870,7 +1856,8 @@ ul.extra-skills li i {
     background: var(--black-color);
 }
 
-.extra-skills {}
+.extra-skills {
+}
 
 .extra-skills ul {
     margin-top: 30px;
@@ -1888,14 +1875,6 @@ ul.extra-skills li {
 ul.extra-skills li i {
     padding-right: 10px;
 }
-
-
-
-
-
-
-
-
 
 
 /*
@@ -2048,8 +2027,6 @@ ul.extra-skills li i {
 }
 
 
-
-
 .single-project-page-right,
 .single-project-page-left {
     border: 1px solid rgba(0, 0, 0, 0.05);
@@ -2091,9 +2068,6 @@ ul.extra-skills li i {
     padding: 30px;
     border: 1px solid var(--border-color);
 }
-
-
-
 
 
 /*
@@ -2172,10 +2146,6 @@ ul.extra-skills li i {
 }
 
 
-
-
-
-
 /*
 * ----------------------------------------------------------------------------------------
 * 11.PRICING CSS STYLE
@@ -2226,7 +2196,6 @@ ul.extra-skills li i {
 }
 
 
-
 .pricing-item .pricing-header .price:before {
     content: '$';
 }
@@ -2241,7 +2210,6 @@ ul.extra-skills li i {
 .pricing-item .pricing-details {
     padding: 20px 20px;
 }
-
 
 
 .pricing-item .pricing-details p {
@@ -2271,10 +2239,6 @@ ul.extra-skills li i {
 }
 
 
-
-
-
-
 /*
 * ----------------------------------------------------------------------------------------
 * 12.CLIENTS CSS STYLE
@@ -2301,7 +2265,6 @@ ul.extra-skills li i {
 }
 
 
-
 .client-logo-wrap .client-logo-item {
     width: calc(20% - 60px);
     margin: 0 30px 10px;
@@ -2318,12 +2281,14 @@ ul.extra-skills li i {
     padding-bottom: 100px;
     background: var(--primary-color);
 }
+
 .contact-form-area {
     padding: 50px 30px 20px 40px;
     border-radius: 10px;
     border: 1px solid var(--border-color);
-        background: var(--lighter-color);
+    background: var(--lighter-color);
 }
+
 .contact-form-area .form-group {
     margin-bottom: 32px;
 }
@@ -2349,7 +2314,7 @@ ul.extra-skills li i {
     font-family: var(--text-font);
 }
 
-.contact-form-area .form-group input[type=text]{
+.contact-form-area .form-group input[type=text] {
     color: var(--main-color);
 }
 
@@ -2410,8 +2375,8 @@ ul.extra-skills li i {
     padding-bottom: 20px;
 }
 
-.single-contact p{
-     color: rgb(119, 119, 125);
+.single-contact p {
+    color: rgb(119, 119, 125);
 }
 
 
@@ -2431,7 +2396,7 @@ ul.extra-skills li i {
     padding: 50px 30px 20px 40px;
     border-radius: 10px;
     border: 1px solid var(--border-color);
-        background: var(--lighter-color);
+    background: var(--lighter-color);
 }
 
 .contact-page-content h6 {
@@ -2457,7 +2422,6 @@ ul.extra-skills li i {
     background: var(--lighter-color);
     border: 1px solid var(--border-color);
 }
-
 
 
 .contact-page-form .form-group .nice-select,
@@ -2497,8 +2461,6 @@ ul.extra-skills li i {
 }
 
 
-
-
 /*
 * ----------------------------------------------------------------------------------------
 * 14.FOOTER CSS STYLE
@@ -2508,7 +2470,8 @@ ul.extra-skills li i {
     background: var(--primary-color);
 }
 
-.footer-bottom {}
+.footer-bottom {
+}
 
 p.copy-left-text {
     color: var(--main-color);
@@ -2537,11 +2500,12 @@ p.copy-right-text {
     text-align: center;
 }
 
-.footer-top{
-padding-top: 100px;
- padding-bottom: 100px;
+.footer-top {
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
-.footer-top p{
+
+.footer-top p {
 
     color: var(--main-color);
     font-size: 20px;
@@ -2835,23 +2799,6 @@ body.loaded {
     opacity: 0 !important;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -3241,7 +3188,8 @@ ul.blog_pagination li a:hover {
     font-weight: 700;
 }
 
-.single-comment p {}
+.single-comment p {
+}
 
 .single-comment a {
     color: #fff;
@@ -3392,7 +3340,8 @@ ul.blog_pagination li a:hover {
     padding-right: 60q;
 }
 
-.single-side-bar {}
+.single-side-bar {
+}
 
 .single-side-bar {
     -webkit-transition: 0.5s;
@@ -3402,20 +3351,6 @@ ul.blog_pagination li a:hover {
     padding: 25px;
     border: 1px solid var(--border-color);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .company-design-area {
@@ -3451,10 +3386,10 @@ ul.blog_pagination li a:hover {
 .scroller[data-animated="true"] {
     overflow: hidden;
     -webkit-mask: -webkit-linear-gradient(left,
-        transparent,
-        white 20%,
-        white 80%,
-        transparent);
+    transparent,
+    white 20%,
+    white 80%,
+    transparent);
     mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
 }
 
