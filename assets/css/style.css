@@ -2487,8 +2487,8 @@ p.copy-right-text {
     font-size: 12px;
     line-height: 20px;
     font-weight: 300;
-    -moz-text-align-last: right;
-    text-align-last: right;
+    -moz-text-align-last: center;
+    text-align-last: center;
 }
 
 .footer-top h2 {
