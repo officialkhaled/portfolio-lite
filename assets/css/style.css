@@ -3380,7 +3380,9 @@ ul.blog_pagination li a:hover {
 }
 
 .scroller__inner img {
+    object-fit: contain;
     margin-right: 30px;
+    /*filter: grayscale(1);*/
 }
 
 .scroller[data-animated="true"] {
