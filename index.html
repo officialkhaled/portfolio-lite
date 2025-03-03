@@ -667,8 +667,18 @@
         "closeButton": true,
         "progressBar": true,
         "positionClass": "toast-top-right",
-        "timeOut": "5000",
+        "showMethod": "fadeIn",
+        "hideMethod": "fadeOut",
+        "timeOut": "3500",
     };
+
+    document.addEventListener("DOMContentLoaded", function () {
+        let toasts = document.querySelectorAll("#toast-container > .toast");
+        toasts.forEach(toast => {
+            toast.style.minWidth = "380px";
+            toast.style.maxWidth = "500px";
+        });
+    });
 
     document.getElementById("contactForm").addEventListener("submit", function (event) {
         event.preventDefault();
